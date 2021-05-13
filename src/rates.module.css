@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+}
+body{
+    background: rgb(245, 241, 243);  
+}
+
+.rule{
+  border-top:3px rgb(46, 193, 219) solid;
+}
+.center{
+  margin: auto;
+  width: 75%;
+  
+  padding: 5px;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textarea{
+width: 299px;
+height: 21px;
+border: 1px rgb(149, 151, 151) solid;
+padding: 5px;
+}
+.dropdown{
+  background-color: #a7a9aa;
+  color: black;
+  padding: 6px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.textsarea{
+  width: 98%;
+
+  border: 1px rgb(149, 151, 151) solid;
+  padding: 5px;
+}
+.textlongbox{
+width: 88%;
+
+border: 1px rgb(149, 151, 151) solid;
+padding: 5px;
+
+}
+.ratebox{
+  border: 1px solid rgb(192, 201, 196);
+  margin-top: 10px;
+  background-color: rgb(220, 221, 221);
+}
+.textareas{
+  width: 299px;
+height: 30px;
+border: 1px rgb(149, 151, 151) solid;
+padding: 5px;
+
+}
+.button{
+  display: block;
+  background-color: #7473db;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 35px;
+  margin: auto;
+}
+.label{
+  font-size: 20px;
+  color: #909490;
+}
