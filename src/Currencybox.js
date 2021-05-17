@@ -29,7 +29,6 @@ class Currency extends React.Component{
 						</select>
 
           </div>
-          
            </div>
            <Amounts rates="250000"/>   
            <GetQuote /> 
