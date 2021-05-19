@@ -78,3 +78,15 @@ padding: 5px;
   font-size: 20px;
   color: #909490;
 }
+.buttons{
+ 
+  background-color: #7473db;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 35px;
+  margin: auto;
+}
+

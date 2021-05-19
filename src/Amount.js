@@ -7,7 +7,7 @@ class Amounts extends React.Component{
           <div>
             <label for="Amount">Amount</label>
             <ul>
-            <input  className={styles.textarea} type="text" placeholder="Amount" name={this.props.rates} required></input>
+            <input  className={styles.textarea} type="text" placeholder="Amount" name=" " required></input>
             </ul> 
           </div>
         )

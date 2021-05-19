@@ -4,9 +4,7 @@ import styles from './rates.module.css';
 import Userdata from './Userdetails';
 import Telephones from './Telephone';
 import Currency from './Currencybox';
-
-
-
+import Rates from './Rates';
 class Quotes extends React.Component{
   render(){
     return(
@@ -16,6 +14,7 @@ class Quotes extends React.Component{
       <Userdata />
       <Telephones />
       <Currency />
+      <Rates />
       </div>    
       </div>
     )

@@ -11,8 +11,8 @@ class Currency extends React.Component{
             <div>
             <label for="From Currency">From Currency</label> 
              <select className={styles.textareas}>
-							<option value="Austrailan Dollar[Aus]">Austrailan Dollar[Aus]</option>
-							<option value="India Rupees[IND]">India Rupees[IND]</option>
+							<option value="Austrailan Dollar[AUD]">Austrailan Dollar[AUD]</option>
+							<option value="India Rupees[INR]">India Rupees[INR]</option>
 							<option value="China Yuan[CHN">China Yuan[CHN</option>
 							<option value="United States Dollar[US]">United States Dollar</option>
 							<option value="Russian Ruble [RUB]">Russian Ruble [RUB]</option>
@@ -30,8 +30,10 @@ class Currency extends React.Component{
 
           </div>
            </div>
-           <Amounts rates="250000"/>   
+           <Amounts />   
            <GetQuote /> 
+           
+           
         </div>
       )
     }
