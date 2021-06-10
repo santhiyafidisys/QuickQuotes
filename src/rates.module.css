@@ -10,6 +10,7 @@ body{
 }
 
 .rule{
+  
   border-top:3px rgb(46, 193, 219) solid;
 }
 .center{
@@ -23,15 +24,18 @@ body{
   flex-direction: row;
   justify-content: space-between;
 }
+.border{
+  border: 1px solid rebeccapurple;
+}
 
 .textarea{
 width: 299px;
 height: 21px;
-border: 1px rgb(149, 151, 151) solid;
+border: 1px rgb(237, 240, 240) solid;
 padding: 5px;
 }
 .dropdown{
-  background-color: #a7a9aa;
+  background-color: #a7aaaa;
   color: black;
   padding: 6px;
   font-size: 12px;
@@ -40,7 +44,7 @@ padding: 5px;
 }
 .textsarea{
   width: 98%;
-
+  border: 1px rgb(149, 151, 151) solid;
   border: 1px rgb(149, 151, 151) solid;
   padding: 5px;
 }
@@ -54,6 +58,7 @@ padding: 5px;
 .ratebox{
   border: 1px solid rgb(192, 201, 196);
   margin-top: 10px;
+  height: 155px;
   background-color: rgb(220, 221, 221);
 }
 .textareas{
@@ -61,6 +66,7 @@ padding: 5px;
 height: 30px;
 border: 1px rgb(149, 151, 151) solid;
 padding: 5px;
+background-color: white;
 
 }
 .button{
@@ -90,3 +96,10 @@ padding: 5px;
   margin: auto;
 }
 
+.hmocIu{
+ 
+  color: rgb(141, 193, 176);
+  font-size: 20px;
+  margin: 10px;
+  
+}
